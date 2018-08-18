@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="android" name="android" remote="korus" />
+  <project path="bionic" name="android_bionic" remote="korus" />
+  <project path="build/make" name="android_build" remote="korus" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="korus" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/korus/sepolicy" name="android_device_korus_sepolicy" remote="korus" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="korus" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="korus" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="korus" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="korus" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="korus" />
+  <project path="vendor/korus" name="android_vendor_korus" remote="korus" />
+</manifest>
