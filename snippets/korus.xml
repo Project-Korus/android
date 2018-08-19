@@ -21,5 +21,6 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="korus" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="korus" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="korus" />
+  <project path="system/core" name="android_system_core" remote="korus" />
   <project path="vendor/korus" name="android_vendor_korus" remote="korus" />
 </manifest>
