@@ -18,6 +18,7 @@
   <project path="device/korus/sepolicy" name="android_device_korus_sepolicy" remote="korus" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="korus" />
   <project path="frameworks/av" name="android_frameworks_av" remote="korus" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="korus" />
   <project path="frameworks/native" name="android_frameworks_native" remote="korus" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="korus" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="korus" />
