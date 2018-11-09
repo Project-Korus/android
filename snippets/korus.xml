@@ -19,6 +19,7 @@
   <project path="lineage-sdk" name="android_lineage-sdk" remote="korus" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="korus" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="korus" />
+  <project path="packages/apps/KorusOTA" name="android_packages_apps_KorusOTA" remote="korus" />
   <project path="packages/apps/KorusSettings" name="android_packages_apps_KorusSettings" remote="korus" />
   <project path="vendor/korus" name="android_vendor_korus" remote="korus" />
 </manifest>
