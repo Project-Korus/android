@@ -1,13 +1,13 @@
-Korus Project
+Korus-Project
 ===========
 
 Getting started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/Korus-Project, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the Korus-Project trees, use a command like this:
 ```
 repo init -u git://github.com/Project-Korus/android.git -b korus-p
 ```
